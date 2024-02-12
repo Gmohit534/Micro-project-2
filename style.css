@@ -52,7 +52,6 @@ body {
 .main {
     width: 100%;
     box-sizing: border-box;
-
     padding-top: 160px;
 }
 
@@ -63,9 +62,6 @@ body {
     display: inline-block;
     width: 88%;
     padding-left: 70px;
-
-
-
 }
 
 .images {
@@ -105,14 +101,12 @@ body {
 .container2 {
 
     padding: 90px 70px;
-
     line-height: 20px;
     color: #FFF;
     box-sizing: border-box;
 }
 
 .card {
-
 
     height: 107px;
     width: 20%;
@@ -126,7 +120,6 @@ body {
 .para1 {
 
     background-color: #929DFF;
-
 }
 
 .para2 {
@@ -148,41 +141,45 @@ body {
 }
 
 .container3 {
+
     padding: 0px 70px;
 }
 
 .blueBox {
+
     border-radius: 21px;
     display: inline-flex;
     background-color: #483EFF;
-
     width: 100%;
     box-sizing: border-box;
 }
 
 .button {
+
     margin: 36px;
     width: 272px;
     height: 96px;
     border-radius: 22px;
-
     font-weight: 700;
     font-size: 26px;
 
 }
 
 .button.infoButton {
+
     background-color: #bce0f6;
     border: 5px solid #bce0f6;
 }
 
 .button.bookMarkButton {
+
     color: #fff;
     background-color: #483eff;
     border: 5px solid #fff;
 }
 
 .button.settingButton {
+
     color: #fff;
     background-color: #483eff;
     border: 5px solid #fff;
@@ -261,7 +258,7 @@ h2 {
     z-index: 9;
     display: inline-block;
     top: 30%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
 }
 
 .stickyIcon img {
@@ -285,4 +282,9 @@ h2 {
     padding: 13px 27px;
     border-radius: 9px;
     border: 0px;
+
+}
+
+.nextButton img {
+    width: 20px;
 }
