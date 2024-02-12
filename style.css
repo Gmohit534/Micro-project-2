@@ -153,8 +153,9 @@ body {
     width: 272px;
     height: 96px;
     border-radius: 22px;
+
     font-weight: 700;
-    size: 35px;
+    font-size: 26px;
 
 }
 
@@ -183,17 +184,31 @@ body {
     width: 100%;
     background-color: #fff;
     margin: 26px;
+    position: relative;
 }
 
 .info1 {
-    line-height: 53px;
-    padding-left: 145px;
+    line-height: 32.81px;
+    padding-left: 80px;
+}
+
+.info1 .title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #04285A;
+}
+
+.info1 .value {
+    font-weight: 400;
+    font-size: 20px;
+    color: #143565;
 }
 
 h2 {
-    padding-left: 85px;
+    padding-left: 55px;
     font-weight: 700;
-    size: 38px;
+    font-size: 26px;
+    color: #04285A;
 }
 
 .logo img {
@@ -209,7 +224,6 @@ h2 {
 
     background-color: #fff;
     position: fixed;
-    top: 190px;
     width: 75px;
     right: 111px;
     z-index: 9;
@@ -218,6 +232,8 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .helpIcon .help {
@@ -235,4 +251,23 @@ h2 {
 
 .stickyIcon img {
     width: 60px;
+}
+
+.nextButton {
+    text-align: center;
+    position: relative;
+    position: absolute;
+    bottom: 27px;
+    right: 0px;
+}
+
+.nextButton button {
+    font-size: 20px;
+    margin-right: 38px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #000;
+    padding: 13px 27px;
+    border-radius: 9px;
+    border: 0px;
 }
