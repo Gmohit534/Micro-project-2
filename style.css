@@ -13,6 +13,7 @@ body {
     position: fixed;
     box-sizing: border-box;
     height: 100px;
+    z-index: 9;
 
 }
 
@@ -51,7 +52,7 @@ body {
 .main {
     width: 100%;
     box-sizing: border-box;
-    padding: 0px 70px;
+
     padding-top: 160px;
 }
 
@@ -59,7 +60,11 @@ body {
 .container1 {
 
     height: 370px;
-    display: flex;
+    display: inline-block;
+    width: 88%;
+    padding-left: 70px;
+
+
 
 }
 
@@ -99,10 +104,11 @@ body {
 
 .container2 {
 
+    padding: 90px 70px;
 
-    padding: 90px 0px;
     line-height: 20px;
     color: #FFF;
+    box-sizing: border-box;
 }
 
 .card {
@@ -142,10 +148,16 @@ body {
 }
 
 .container3 {
+    padding: 0px 70px;
+}
+
+.blueBox {
     border-radius: 21px;
     display: inline-flex;
     background-color: #483EFF;
+
     width: 100%;
+    box-sizing: border-box;
 }
 
 .button {
@@ -188,7 +200,7 @@ body {
 }
 
 .info1 {
-    line-height: 32.81px;
+    line-height: 43.81px;
     padding-left: 80px;
 }
 
@@ -246,7 +258,10 @@ h2 {
     position: sticky;
     left: 100%;
     width: 65px;
-    top: 50%;
+    z-index: 9;
+    display: inline-block;
+    top: 30%;
+    transform: translateY(-50%);
 }
 
 .stickyIcon img {
